@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>alex</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+         .zoom-image {
+            transition: transform 0.5s ease;
+        }
+
+        .zoom-image:hover {
+            transform: scale(1.1);
+        }
+        .text-zoom {
+            transition: transform 0.5s ease;
+        }
+
+        .text-zoom:hover {
+            transform: scale(1.1);
+        }
+        .text-zoom {
+    color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Work</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="image.svg" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#reviews">Testimonial</a>
+                            <a href="#work">Work</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="btn btn-primary">Contact</button>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="1red.png" alt="" class="zoom-image">
+                    </div>
+                    <div class="right flex-1 text-zoom">
+                        <h6 class="text-zoom">nismo</h6>
+                        <h1>GTR <span>R34</span></h1>
+                        <p>The Nissan Skyline GT-R (Japanese: 日産・スカイラインGT-R, Hepburn: Nissan Sukairain GT-R) is a Japanese sports car based on the Nissan 
+                              Skyline range. The first cars named "Skyline GT-R" were produced between 1969 and 1972 under the model code KPGC10, and were successful in 
+                              Japanese touring car racing events. This model was followed by a brief production run of second-generation cars, under model code KPGC110, in 1973.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img zoom-image" src="eng.png" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1 class="text-zoom">About <span>R34</span></h1>
+                    <h3 class="text-zoom">The Nissan Skyline GT-R</h3>
+                    <p class="text-zoom">The Nissan Skyline GT-R R34 features the legendary RB26DETT engine, a 2.6-liter inline-six with twin-turbocharging
+                        Power Output: Officially rated at 280 hp (206 kW)
+Torque: 392 N·m (40.0 kgm)/4,400rpm
+Transmission: ATTESA E-TS all-wheel drive gearbox Transmission	
+5-speed manual (1969–1998)
+6-speed manual (1999–2002)
+Wheels to nickname the GT-R "Godzilla"The GF-BNR34 (R34) 
+Skyline GT-R, GT-R V·Spec and GT-R V·Spec N1 models were introduced in January 1999. 
+The R34 GT-R was shorter (from front to rear), and the front overhang was reduced as 
+compared to its predecessor. The valve covers were painted glossy red (colour code Cherry 
+Red Effect Z24 or X1020),[citation needed] as opposed to black in previous models.
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://twitter.com/"> <ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"> <ion-icon name="logo-react"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading text-zoom"><span>More </span>Details</h1>
+                <p>The Nissan Skyline GT-R R34</p>
+                <div class="card-wrapper">
+                    <div class="card text-zoom">
+                        <ion-icon name="business-outline"></ion-icon>
+
+                        <h2>Nissan Motor</h2>
+                        <p>Nissan Motor Co., Ltd. (日産自動車株式会社, Nissan Jidōsha kabushiki gaisha)
+                             (doing business as Nissan Motor Corporation) is a Japanese multinational automobile 
+                             manufacturer headquartered in Yokohama, Kanagawa, Japan.
+                        </p>
+                    </div>
+                    <div class="card text-zoom">
+                        <ion-icon name="alert-circle-outline"></ion-icon>
+
+                        <h2>Engine</h2>
+                        <p>The Nissan Skyline GT-R R34 features the legendary 
+                            RB26DETT engine, a 2.6-liter inline-six with twin-turbocharging, 
+                            known for its impressive power and performance. 
+                        </p>
+                    </div>
+                    <div class="card text-zoom">
+                        <ion-icon name="car-outline"></ion-icon>
+
+                        <h2>GTR R35</h2>
+                        <p>The Nissan GT-R has 1 Petrol Engine on offer. 
+                            The Petrol engine is 3798 cc . It is available
+                             with Automatic transmission. The GT-R is a 4 
+                             seater 6 cylinder car and has length of 4710mm,
+                              width of 1895mm and a wheelbase of 270MM.
+                        </p>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="freelancer">
+            <h1>Nissan Motor Co., Ltd.</h1>
+            <p>"Driving Innovation To Enrich People's Lives"</p>
+        </section>
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h1 class="section-heading text-zoom"><span>NISMO</h1>
+                <p>Nissan Motorsports International Co., Ltd</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img class="fixed-size zoom-image" src="nissan-r31-skyline-gtr.jpg.ximg.l_3_h.smart.jpg" alt="">
+                        <p class="text-zoom">"TYPE: KRR31
+                            YEAR: 1986
+                            ENGINE: RB20DET (6-cyl. in-line, DOHC turbo), 1,998cc
+                            POWER: 140kW (190PS)/6,400rpm
+                            TORQUE: 240Nm (24.5kgm)/4,800rpm"</p>
+                        <span class="text-zoom">- R31 SKYLINE GT-R</span>
+                    </div>
+                    <div class="slide">
+                        <img src="nissan-r32-skyline-gtr-01.jpg.ximg.l_3_h.smart.jpg" class="zoom-image" alt="">
+                        <p class="text-zoom">TYPE: BNR32
+                            YEAR: 1990
+                            ENGINE: RB26DETT (6-cyl. in line, DOHC), 2,568cc
+                            POWER: 405kW (550PS)/7,600rpm
+                            TORQUE: 490Nm (50kgm)/6,000rpm"</p>
+                        <span class="text-zoom">R32 SKYLINE GT-R</span>
+                    </div>
+                    <div class="slide">
+                        <img src="nissan-r33-skyline-gtr.jpg.ximg.l_3_h.smart.jpg" class="zoom-image" alt="">
+                        <p class="text-zoom">"TYPE: BCNR33
+                            YEAR: 1995
+                            ENGINE: RB26DETT (6-cyl. in line, DOHC), 2,568cc
+                            POWER: 224kW (305PS)/6,500rpm
+                            TORQUE: 373Nm (38.0kgm)/4,500rpm"</p>
+                        <span class="text-zoom">R33 SKYLINE GT-R
+                        </span>
+                    </div>
+                    <div class="slide">
+                        <img src="nissan-r35-nissan-gtr.jpg.ximg.l_3_h.smart.jpg" class="zoom-image" alt="">
+                        <p class="text-zoom">"TYPE: R35
+                            YEAR: 2007
+                            ENGINE: VR38DETT (V6, 4-valve DOHC with twin turbo) 3,799cc
+                            POWER: 353kW(480ps)/6,400rpm
+                            TORQUE: 588N·m(60.0kgm)/3,200-5,200rpm 
+                            "</p>
+                        <span class="text-zoom">R35 NISSAN GT-R</span>
+                    </div>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="container">
+                <h1 class="section-heading text-zoom">NISMO</h1>
+                <p> SPORTS CARS
+                </p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay zoom-image">
+                            <span>R31 SKYLINE GT-R
+                            </span>
+                            <a href="#">Nissan</a>
+                        </div>
+                        <img src="high.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay zoom-image">
+                            <span>R32 SKYLINE GT-R</span>
+                            <a href="#">Nissan</a>
+                        </div>
+                        <img src="Taisan-Group-A-R32-GT-R.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay  zoom-image">
+                            <span>R33 SKYLINE GT-R</span>
+                            <a href="#">Nissan</a>
+                        </div>
+                        <img src="Nissan-Skyline-R33-GT-R-LM-4344.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay  zoom-image">
+                            <span>R34 SKYLINE GT-R</span>
+                            <a href="#">Nissan</a>
+                        </div>
+                        <img src="34gtr.jpeg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay  zoom-image">
+                            <span>Nissan 370Z
+                            </span>
+                            <a href="#">Nissan</a>
+                        </div>
+                        <img src="Xtreme-Z-main-photo-white-1080x675.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay  zoom-image">
+                            <span>GT-R R35 Special Edition</span>
+                            <a href="#">Nissan</a>
+                        </div>
+                        <img src="nissan-gt-r-nismo-gt500-02 (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+                       
+        <section class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>As</span></h1>
+                <p>Nissan Motor Co., Ltd.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <ion-icon name="call-outline"></ion-icon>
+
+                        <h1>Mobile</h1>
+                        <h6>+123 456 7890</h6>
+                    </div>
+                    <div class="card">
+                        <ion-icon name="mail-outline"></ion-icon>
+
+                        <h1>Gmail Us</h1>
+                        <h6>alex@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <ion-icon name="business-outline"></ion-icon>
+
+                        <h1>Visit Office</h1>
+                        <h6>Spain</h6>
+                    </div>
+
+                </div>
+
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <img class="footer-logo" src="image.svg" alt="">
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/"> <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://www.youtube.com/"> <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/"> <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </div>
+            <div class="copyright">
+                Copyright © All Rights Reserved
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+</body>
+
+</html>
